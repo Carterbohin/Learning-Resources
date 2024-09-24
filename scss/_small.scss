@@ -42,13 +42,16 @@ header {
 nav {
     background-color: $primaryColor;
 }
-#mybutton::before {
+//add default trigram from heaven
+#myButton::before {
     content: "\2630";
 }
+
+//style bottom menu
 #myButton {
     border: none;
     background: none;
-    color: rgb(255, 255, 255);
+    color: white;
     font-size: 2rem;
     padding: 0;
     width: 44px;
@@ -57,23 +60,24 @@ nav {
     cursor: pointer;
 }
 
-ul.menulinks {
+ul.menuLinks {
     list-style-type: none;
     margin: 0;
     padding: 0;
     display: none;
+    li a {
+        color: #fff;
+        display: block;
+        padding: .75rem $gutter;
+        text-decoration: none;
+    }
+    li.active a {
+        background-color: rgba(255,255,255,0.2);
+    }
 }
-li a {
-    color: #fff;
-    display: block;
-    padding: .75rem $gutter;
-    text-decoration: none;
-}
+// end unordered
 
-li.active a {
-    background-color: rgba(255,255,255,0.2);
-}
-
+/* CSS for the open class*/
 ul.open.menuLinks {
     display: block;
 }
