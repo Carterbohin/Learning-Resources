@@ -39,15 +39,47 @@ header {
 /* --------------------------- NAVIGATION STUFF GOES HERE --------------------------- */
 
 
+nav {
+    background-color: $primaryColor;
+}
+#mybutton::before {
+    content: "\2630";
+}
+#myButton {
+    border: none;
+    background: none;
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    padding: 0;
+    width: 44px;
+    height: 44px;
+    font-weight: $lightWeight;
+    cursor: pointer;
+}
 
+ul.menulinks {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: none;
+}
+li a {
+    color: #fff;
+    display: block;
+    padding: .75rem $gutter;
+    text-decoration: none;
+}
 
+li.active a {
+    background-color: rgba(255,255,255,0.2);
+}
 
-
-
-
-
-
-
+ul.open.menuLinks {
+    display: block;
+}
+#myButton.open::before {
+    content: "x";
+}
 
 
 
