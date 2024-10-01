@@ -104,10 +104,45 @@ main {
 
 
 
+
+
+
+.allcards {
+    section{
+        border: 1px solid red;
+        border-radius: 10px;
+        overflow: hidden;
+        h2, p, img{
+            margin: 0;
+            padding: 1rem $gutter;
+        }
+        h2 {
+            background-color: bisque;
+            font-size: 1.5rem;
+            
+            text-align: center;
+        }
+        img{
+            width: 100%;
+            height: auto;   
+        }
+        img.e2e {padding: 0;}
+        p {
+            font-style: italic;
+        }
+    }
+} // end allcards
+
 /* --------------------------- FOOTER --------------------------- */
 #footerWrapper {
     background-color: $primaryColor
 } // end footer wrapper
+
+
+
+
+
+
 
 footer {
     font-size: .85rem;

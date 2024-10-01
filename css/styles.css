@@ -327,10 +327,10 @@ body {
 header {
   display: grid;
   grid-template-columns: 50px auto;
-  -moz-column-gap: 10px;
-       column-gap: 10px;
+  -moz-column-gap: 16px;
+       column-gap: 16px;
   align-items: center;
-  padding: 0.5rem 10px;
+  padding: 0.5rem 16px;
 }
 header span {
   font-size: 1.6rem;
@@ -368,7 +368,7 @@ ul.menuLinks {
 ul.menuLinks li a {
   color: #fff;
   display: block;
-  padding: 0.75rem 10px;
+  padding: 0.75rem 16px;
   text-decoration: none;
 }
 ul.menuLinks li.active a {
@@ -386,15 +386,40 @@ ul.open.menuLinks {
 
 /* --------------------------- MAIN --------------------------- */
 main h1 {
-  padding: 1rem 10px 0.5rem 10px;
+  padding: 1rem 16px 0.5rem 16px;
   font-size: 1.5rem;
   color: #7c1d47;
   font-weight: 300;
 }
 main p {
-  padding: 0.5rem 10px;
+  padding: 0.5rem 16px;
   color: #333;
   line-height: 150%;
+}
+
+.allcards section {
+  border: 1px solid red;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.allcards section h2, .allcards section p, .allcards section img {
+  margin: 0;
+  padding: 1rem 16px;
+}
+.allcards section h2 {
+  background-color: bisque;
+  font-size: 1.5rem;
+  text-align: center;
+}
+.allcards section img {
+  width: 100%;
+  height: auto;
+}
+.allcards section img.e2e {
+  padding: 0;
+}
+.allcards section p {
+  font-style: italic;
 }
 
 /* --------------------------- FOOTER --------------------------- */
@@ -404,7 +429,7 @@ main p {
 
 footer {
   font-size: 0.85rem;
-  padding: 1rem 10px;
+  padding: 1rem 16px;
   color: #ccc;
   text-align: center;
   line-height: 150%;
