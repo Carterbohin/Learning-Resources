@@ -466,7 +466,7 @@ footer a {
   }
 }
 @media only screen and (min-width: 64rem) {
-  header, nav, main {
+  header, main {
     max-width: 960px;
     margin: auto;
   }
