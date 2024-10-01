@@ -30,3 +30,9 @@ ul.menuLinks a:hover {
         flex-basis: calc(33.3333% - (($gutter*2)/3))
     }
 }
+
+footer div {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    
+}
