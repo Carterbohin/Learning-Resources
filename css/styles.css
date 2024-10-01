@@ -397,29 +397,45 @@ main p {
   line-height: 150%;
 }
 
+.allcards {
+  padding: 0 16px;
+}
 .allcards section {
-  border: 1px solid red;
+  border: 1px solid #3990c3;
   border-radius: 10px;
   overflow: hidden;
+  margin: 1rem 0;
 }
 .allcards section h2, .allcards section p, .allcards section img {
   margin: 0;
   padding: 1rem 16px;
 }
 .allcards section h2 {
-  background-color: bisque;
+  color: white;
+  background-color: #7c1d47;
   font-size: 1.5rem;
   text-align: center;
 }
 .allcards section img {
   width: 100%;
   height: auto;
+  display: block;
 }
 .allcards section img.e2e {
   padding: 0;
 }
 .allcards section p {
   font-style: italic;
+}
+.allcards section a {
+  display: block;
+  background-color: #1d295f;
+  padding: 0.75rem;
+  color: white;
+  text-align: center;
+  margin: 0 3rem 1rem 3rem;
+  border-radius: 8px;
+  text-decoration: none;
 }
 
 /* --------------------------- FOOTER --------------------------- */
