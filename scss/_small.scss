@@ -92,7 +92,7 @@ main {
     h1 {
         padding: 1rem $gutter.5rem $gutter;
         font-size: 1.5rem;
-        color: $secondaryColor;
+        color: black;
         font-weight: $lightWeight
     }
     p {
@@ -119,8 +119,8 @@ main {
             padding: 1rem $gutter;
         }
         h2 {
-            color: white;
-            background-color: #7c1d47;
+            color: black;
+            background-color: $secondaryColor;
             font-size: 1.5rem;
             
             text-align: center;

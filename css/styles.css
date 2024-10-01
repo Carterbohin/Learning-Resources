@@ -321,7 +321,7 @@ body {
 
 /* --------------------------- HEADER --------------------------- */
 #headerWrapper {
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid #E1E5E4;
 }
 
 header {
@@ -335,12 +335,12 @@ header {
 header span {
   font-size: 1.6rem;
   font-weight: 300;
-  color: #1d295f;
+  color: #276678;
 }
 
 /* --------------------------- NAVIGATION STUFF GOES HERE --------------------------- */
 nav {
-  background-color: #1d295f;
+  background-color: #276678;
 }
 
 #myButton::before {
@@ -388,7 +388,7 @@ ul.open.menuLinks {
 main h1 {
   padding: 1rem 16px 0.5rem 16px;
   font-size: 1.5rem;
-  color: #7c1d47;
+  color: black;
   font-weight: 300;
 }
 main p {
@@ -411,8 +411,8 @@ main p {
   padding: 1rem 16px;
 }
 .allcards section h2 {
-  color: white;
-  background-color: #7c1d47;
+  color: black;
+  background-color: #A3C9A8;
   font-size: 1.5rem;
   text-align: center;
 }
@@ -429,7 +429,7 @@ main p {
 }
 .allcards section a {
   display: block;
-  background-color: #1d295f;
+  background-color: #276678;
   padding: 0.75rem;
   color: white;
   text-align: center;
@@ -440,22 +440,30 @@ main p {
 
 /* --------------------------- FOOTER --------------------------- */
 #footerWrapper {
-  background-color: #1d295f;
+  background-color: #276678;
 }
 
 footer {
   font-size: 0.85rem;
   padding: 1rem 16px;
-  color: #ccc;
+  color: #E1E5E4;
   text-align: center;
   line-height: 150%;
 }
 footer a {
-  color: #ccc;
+  color: #E1E5E4;
 }
 
 @media only screen and (min-width: 35rem) {
   /* NAVIGATION STUFF GOES HERE  */
+  .allcards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+  .allcards section {
+    flex-basis: calc(50% - 8px);
+  }
 }
 @media only screen and (min-width: 64rem) {
   header, nav, main {
@@ -474,6 +482,9 @@ footer a {
     justify-content: flex-end;
   }
   ul.menuLinks a:hover {
-    background-color: #7c1d47;
+    background-color: #A3C9A8;
+  }
+  .allcards section {
+    flex-basis: calc(33.3333% - 10.6666666667px);
   }
 }/*# sourceMappingURL=styles.css.map */

@@ -21,3 +21,11 @@ ul.menuLinks, ul.menuLinks.open {
 ul.menuLinks a:hover {
     background-color: $secondaryColor;
 }
+
+
+.allcards {
+
+    section{
+        flex-basis: calc(33.3333% - (($gutter*2)/3))
+    }
+}
