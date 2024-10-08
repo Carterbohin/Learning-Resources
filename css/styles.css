@@ -449,6 +449,7 @@ footer {
 }
 footer section.contact a {
   color: white;
+  text-decoration: none;
 }
 footer section.contact p {
   font-size: 1.1rem;
