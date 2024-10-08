@@ -444,7 +444,11 @@ main p {
 }
 
 footer {
+  color: white;
   padding: 1rem 16px;
+}
+footer section.contact a {
+  color: white;
 }
 footer section.contact p {
   font-size: 1.1rem;

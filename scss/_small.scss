@@ -161,13 +161,19 @@ main {
 
 
 footer {
+    color: white;
     padding: 1rem $gutter;
     section {
 
     }
     section.contact{
+        a {
+            color: white;
+            
+        }
         p{font-size: 1.1rem;
         margin: .5rem;}
+        
 
         ion-icon{color: $secondaryColor; 
         padding-right: 5px;
